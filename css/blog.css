@@ -1,0 +1,201 @@
+.blog__main {
+  width: 100%;
+  max-width: 100vw;
+  background-color: #f3f3f3;
+  padding: 60px 0;
+}
+
+.blogs {
+  width: 1300px;
+  margin: 0 auto;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+.blogs__left,
+.blogs__right,
+.blogs__tags {
+  padding: 50px 30px;
+}
+.blogs__left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.blogs__left__seach {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--text-color);
+}
+.blogs__left__seach input {
+  border: none;
+  outline: none;
+}
+
+.blogs__left h3,
+.blogs__tags h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0;
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+.blogs__left__about p {
+  font-size: 15px;
+  color: #505050e1;
+  line-height: 1.8;
+}
+.blogs__left__recent {
+  width: 100%;
+}
+.blogs__left__recent a {
+  display: block;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-color);
+  color: #505050e1;
+  transition: 0.2s linear;
+}
+.blogs__left__recent a:hover {
+  color: var(--primary-color);
+}
+
+/* right blog */
+.blogs__right {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.blogs__right__item {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 600px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  background-color: var(--text-color);
+}
+.blogs__right__item__img {
+  background-size: cover;
+  background-position: center center;
+}
+.blogs__right__item__contentss {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* gap: 30px; */
+}
+.blogs__right__item__content__author {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  width: 100%;
+}
+.blogs__right__item__content__author .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.blogs__right__item__content__author i {
+  color: var(--primary-color);
+}
+.blogs__right__item__content__author span {
+  color: #505050e1;
+}
+
+.blogs__right__item__content__content {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.blogs__right__item__content__content h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--title-color);
+}
+.blogs__right__item__content__content a {
+  transition: 0.2s ease-in-out;
+}
+.blogs__right__item__content__content a:hover {
+  color: var(--primary-color);
+}
+.blogs__right__item__content__content p {
+  color: #505050e1;
+  line-height: 1.8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+/* right__tag */
+.blog__tag {
+  width: 100%;
+  margin-top: 30px;
+}
+.blog__tag__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.blog__tag__item {
+  width: max-content;
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: var(--text-color);
+  border-radius: 3px;
+  transition: 0.2s linear;
+}
+.blog__tag__item:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+}
+
+.page__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.page__number div {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdbdbde1;
+  cursor: pointer;
+  color: #4e4e4ee1;
+  transition: 0.2s ease-in-out;
+}
+.page__number div:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+.page__number .active {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}

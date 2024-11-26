@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Việt Phú Travel</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- css responsive -->
+     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon" />
+    <!-- icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+   
+    <header id="header">
+      <!-- header top bar -->
+      <div id="header" class="header__top">
+        <div class="top__left">
+          <div class="top__left--items">
+            <i class="fa-solid fa-phone"></i>
+            <span>0123456789</span>
+          </div>
+          <div class="top__left--items">
+            <i class="fa-regular fa-envelope"></i>
+            <span>test123@gmail.com</span>
+          </div>
+        </div>
+        <div class="top__right">
+          <div class="right__item right__item--social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <div class="right__item">
+            <div class="right__item--form right__item--login">
+              <a href="./dang-nhap.html">
+                <i class="fa-solid fa-key"></i>
+                <span>Đăng Nhập</span>
+              </a>
+            </div>
+            <div class="right__item--form right__item--sign">
+              <a href="./dang-ky.html">
+                <i class="fa-solid fa-user"></i>
+                <span>Đăng Ký</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header nav bar -->
+      <div class="header__navs">
+        <a href="#" class="navs__logo">
+          <img src="./image/logo.png" alt="" />
+        </a>
+        <ul class="navs__menus">
+          <li>
+            <a class="active" href="">Trang chủ</a>
+          </li>
+          <li>
+            <a href="./gioi-thieu.html">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="./dat-tour.html">Đặt Tour</a>
+          </li>
+          <li>
+            <a href="./tat-ca-tour.html">Tất cả tour</a>
+          </li>
+           <li>
+            <a href="./bai-viet.html">Bài Viết</a>
+          </li>
+          <li>
+            <a href="./lien-he.html">Liên Hệ</a>
+          </li>
+          <div class="navs__menu--search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </ul>
+      </div>
+      <!-- header nav bar mobile -->
+       <div class="header__navs__mobile">
+     
+        <a href="#" class="navs__logo">
+          <img src="./image/logo.png" alt="" />
+        </a>
+        <div class="navs__mobile__bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navs__mobile__menus">
+          <div class="navs__mobile__menus__close">
+            <a href="#" class="navs__logo">
+              <img src="./image/logo.png" alt="" />
+            </a>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="mobile__menus__items">
+            <a class="active__menus--mobile" href="">Trang chủ</a>
+            <a href="./gioi-thieu.html">Giới thiệu</a>
+            <a href="./dat-tour.html">Đặt tour</a>
+            <a href="./tat-ca-tour.html">Tất cả tour</a>
+
+            <a href="./bai-viet.html">Bài Viết</a>
+
+            <a href="./lien-he.html">Liên hệ</a>
+          </div>
+        </div>
+        
+       </div>
+      <!-- header banner -->
+      <div class="header__banner">
+        <div class="banner__video">
+          <video muted width="100%" loop="true" autoplay="true">
+            <source src="./video/travel-video.mp4" />
+          </video>
+        </div>
+        <div class="banner__content">
+          <div class="content__text">
+            <h1>Việt Phú Travel</h1>
+            <p>Hãy tìm kiếm Tour du lịch phù hợp của bạn</p>
+          </div>
+          <div class="content__forms">
+            <div class="content__form content__form--keys">
+              <input type="text" placeholder="Từ khóa" />
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <select class="content__form content__form--des">
+              <option value="">Điểm đến</option>
+              <option value="">Thiên nhiên</option>
+              <option value="">Đô thị</option>
+              <option value="">Bãi biển</option>
+            </select>
+            <select class="content__form content__form--duration">
+              <option value="">Thời gian</option>
+              <option value="">1 Ngày</option>
+              <option value="">2 - 4 Ngày</option>
+              <option value="">3 - 6 Ngày</option>
+            </select>
+            <button class="content__form content__form--btn">TÌM KIẾM</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="containers">
+      <div class="container">
+        <div class="wraper__section">
+          <!-- item 1 -->
+          <div class="section__item">
+            <i class="fa-solid fa-earth-americas"></i>
+            <div class="section__item--content">
+              <h3>Hơn 700+ Điểm Đến</h3>
+              <p>
+                Đội ngũ chuyên gia của chúng tôi đã lựa chọn cẩn thận tất cả các
+                điểm đến
+              </p>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="section__item">
+            <i class="fas fa-dollar-sign"></i>
+            <div class="section__item--content">
+              <h3>Giá Cả Hợp Lý</h3>
+              <p>
+                Giá khớp trong vòng 48 giờ kể từ khi xác nhận đơn hàng. Giá khớp
+                trong vòng 48 giờ
+              </p>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="section__item">
+            <i class="fas fa-headset"></i>
+            <div class="section__item--content">
+              <h3>Hỗ Trợ Nhiệt Tình</h3>
+              <p>
+                Chúng tôi sẵn sàng trợ giúp trước, trong và thậm chí sau chuyến
+                đi của bạn.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="space"></div>
+        <!-- Destinations -->
+        <section class="section__destinations">
+          <!-- section__title -->
+          <div class="section__title section__destinations">
+            <h2>điểm đến yêu thích</h2>
+
+            <a class="section__title--link" href="./tat-ca-tour.html"
+              >xem tất cả điểm đến <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="destinations__list">
+            <!-- destination__list item 1 -->
+            <div class="list__item list__item--img1">
+              <div class="list__item__tag">1 tours</div>
+              <div class="list__item__contents">
+                <h2>Đà Lạt</h2>
+                <div class="list__item__content">
+                  <p>
+                    Được thiên nhiên ưu ái với khí hậu quanh năm mát mẻ, dễ
+                    chịu, thành phố cao nguyên xinh đẹp này luôn là địa điểm du
+                    lịch và nghỉ dưỡng lý tưởng cho hàng triệu du khách mỗi năm.
+                  </p>
+                  <button>
+                    <a href="./all-tour/tour-da-lat.html">Xem Tour Ngay</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- destination__list item 2 -->
+            <div class="list__item list__item--img2">
+              <div class="list__item__tag">1 tours</div>
+              <div class="list__item__contents">
+                <h2>Mộc Châu</h2>
+                <div class="list__item__content">
+                  <p>
+                    Mộc Châu có bốn mùa xuân, hạ, thu, đông với thời tiết ôn
+                    hòa, quanh năm có hoa trái.
+                  </p>
+                  <button>
+                    <a  href="./all-tour/tour-moc-chau.html">Xem Tour Ngay</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- destination__list item 3 -->
+            <div class="list__item list__item--img3">
+              <div class="list__item__tag">1 tours</div>
+              <div class="list__item__contents">
+                <h2>Phú Quốc</h2>
+                <div class="list__item__content">
+                  <p>
+                    Phú Quốc, một hòn đảo du lịch để lại cho mình bao lưu luyến,
+                    bao thứ cảm xúc… Và có lẽ, phải nói là rất may mắn cho mình
+                    khi đã quyết định đến nơi đây.
+                  </p>
+                  <button>
+                    <a   href="./all-tour/tour-phu-quoc.html">Xem Tour Ngay</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- destination__list item 4 -->
+            <div class="list__item list__item--img4">
+              <div class="list__item__tag">1 tours</div>
+              <div class="list__item__contents">
+                <h2>Hà Nội</h2>
+                <div class="list__item__content">
+                  <p>
+                    Với nhiều người, Hà Nội có tất cả những thứ thú vị để khám
+                    phá nơi đây theo cách riêng của mình.
+                  </p>
+                  <button>
+                    <a  href="./all-tour/tour-ha-noi.html">Xem Tour Ngay</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- destination__list item 5 -->
+            <div class="list__item list__item--img5">
+              <div class="list__item__tag">1 tours</div>
+              <div class="list__item__contents">
+                <h2>Hà Giang</h2>
+                <div class="list__item__content">
+                  <p>
+                    Hà Giang nằm ở vùng địa đầu tổ quốc, là điểm đến mơ ước của
+                    mọi tín đồ du lịch. Đến với vùng đất này, du khách sẽ được
+                    chiêm ngưỡng những dãy núi đá...
+                  </p>
+                  <button>
+                    <a  href="./all-tour/tour-ha-giang.html">Xem Tour Ngay</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Popular Tour -->
+        <section class="section__tours">
+          <!-- section__title -->
+          <div class="section__title sections__tours">
+            <h2>Tour Phổ Biến</h2>
+
+            <a class="section__title--link" href="./tat-ca-tour.html"
+              >xem tất cả tour phổ biến <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="tours__lists">
+            <!-- tour-1 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__list__img--1"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title">
+                  <i class="fa-solid fa-bolt-lightning"></i>
+                  <a href="./all-tour/tour-phu-quoc.html">Tour Phú Quốc</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>7 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>5,764,000 VND</span>
+                  <span>3,963,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-phu-quoc.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+               
+              </div>
+              <div class="tours__list__tag">Phổ biến</div>
+            </div>
+            <!-- tour-2 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__list__img--2"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title">
+                  <i class="fa-solid fa-bolt-lightning"></i>
+                  <a href="./all-tour/tour-ha-long.html">Tour Hạ Long</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>5 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>3,764,000 VND</span>
+                  <span>2,963,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-ha-long.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+              </div>
+              <div class="tours__list__tag">Phổ biến</div>
+            </div>
+            <!-- tour-3 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__list__img--3"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title">
+                  <i class="fa-solid fa-bolt-lightning"></i>
+                  <a href="./all-tour/tour-co-to.html">Tour Cô Tô</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>6 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>4,764,000 VND</span>
+                  <span>2,963,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-co-to.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+              </div>
+              <div class="tours__list__tag">Phổ biến</div>
+            </div>
+          </div>
+        </section>
+        <!-- 360 -->
+        <section class="section__image360">
+          <!-- section__title -->
+          <div class="section__title section__image">
+            <h2>kỳ quan thiên nhiên</h2>
+
+            <span class="section__title--link section__mobile--link"
+              >Thực hiện chuyến tham quan 360 độ đến một số kỳ quan thiên nhiên
+              và điểm tham quan văn hóa hấp dẫn nhất của đất nước ngay tại
+              đây.</span>
+              <span class="section__title--link section__title--responsive"
+              >Thực hiện chuyến tham quan 360 ngay tại
+              đây.</span>
+          </div>
+          <div class="image__lists">
+            <!-- img1 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/Hue2021/index.htm"
+            >
+            </a>
+            <!-- img2 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/HaLong/index.htm"
+            >
+            </a>
+            <!-- img3 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/HoiAn/index.htm"
+            >
+            </a>
+            <!-- img4 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/HaNoi/index.htm"
+            >
+            </a>
+            <!-- img5 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/PhongNha/index.htm"
+            >
+            </a>
+            <!-- img6 -->
+            <a
+              target="_blank"
+              href="https://vietnam.travel/sites/default/files/360Tour/MySon/index.htm"
+            >
+            </a>
+          </div>
+        </section>
+        <!-- discount -->
+        <section class="section__discount">
+          <div class="discount__content">
+            <p>Tận hưởng ưu đãi mùa hè</p>
+            <h2>Giảm giá tới 40%!</h2>
+            <button>Tìm Hiểu Ngay</button>
+          </div>
+          <div class="discount__img">
+            <img src="./image/hoian.webp" alt="" />
+          </div>
+        </section>
+        <!-- Our Recommended -->
+        <section class="section__tours">
+          <!-- section__title -->
+          <div class="section__title sections__tours__heart">
+            <h2>Tour Yêu Thích</h2>
+
+            <a class="section__title--link" href="./tat-ca-tour.html"
+              >xem tất cả tour yêu thích <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="tours__lists">
+            <!-- tour-1 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__heart__img--1"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title heart">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <a href="./all-tour/tour-ha-giang.html">Tour Hà Giang</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>5 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>3,764,000 VND</span>
+                  <span>2,963,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-ha-giang.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+              </div>
+              <div class="tours__list__tag">Yêu thích</div>
+            </div>
+            <!-- tour-2 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__heart__img--2"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title heart">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+
+                  <a href=".//all-tour/tour-ha-noi.html">Tour Hà Nội</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>5 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>3,764,000 VND</span>
+                  <span>3,548,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-ha-noi.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+              </div>
+              <div class="tours__list__tag">Yêu thích</div>
+            </div>
+            <!-- tour-3 -->
+            <div class="tours__list">
+              <div class="tours__list__img tours__heart__img--3"></div>
+              <div class="tours__list__content">
+                <!-- title -->
+                <div class="tours__list__content__title heart">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+
+                  <a href="./all-tour/tour-moc-chau.html">Tour Mộc Châu</a>
+                </div>
+                <!-- list__content__time -->
+                <div class="tours__list__content__times">
+                  <div class="tours__list__content__time">
+                    <i class="fas fa-clock"></i>
+                    <span>6 Ngày</span>
+                  </div>
+                  <div class="tours__list__content__ratting">
+                    <div class="ratting__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>(1 Đánh giá)</span>
+                  </div>
+                </div>
+                <!-- tours__list__content__price -->
+                <div class="tours__list__content__price">
+                  <span>4,764,000 VND</span>
+                  <span>2,963,000 VND</span>
+                </div>
+                <!-- Book tour -->
+                <div class="tours__list__content__btn">
+                  <button><a href="./all-tour/tour-moc-chau.html">ĐẶT TOUR NGAY</a></button>
+                </div>
+              </div>
+              <div class="tours__list__tag">Yêu thích</div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Video -->
+      <section class="section__video">
+        <div class="section__video__content">
+          <h1>VIỆT PHÚ TRAVEL</h1>
+          <h2>Điểm Du Lịch Nổi Bật</h2>
+          <h3>Tạo Cho Bạn Một Kỳ Nghỉ Lý Tưởng</h3>
+          <button><a href="./all-tour/tour-moc-chau.html">ĐẶT TOUR NGAY</a></button>
+        </div>
+      </section>
+      <div class="container">
+        <!-- Blog -->
+        <section class="section__blog">
+          <!-- section__title -->
+          <div class="section__title sections__blog">
+            <h2>Bài Viết Gần Đây</h2>
+
+            <a class="section__title--link" href="./bai-viet.html"
+              >xem tất cả bài viết <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- blog list -->
+          <div class="section__blog__list">
+            <!-- blog item 1 -->
+            <div
+              style="background-image: url(./image/tours/mocchau.jpg)"
+              class="section__blog__list__items"
+            >
+              <div class="section__blog__list__item">
+                <a href="./bai-viet/gioi-thieu-moc-chau.html">Mộc châu điểm đến thiên nhiên</a>
+                <div class="blog__list__item__author">
+                  <span>10 / 11 / 2024</span>
+                  <ul>
+                    <li>Đặng Thế Việt</li>
+                  </ul>
+                </div>
+                <button><a href="./bai-viet/gioi-thieu-moc-chau.html">Xem Bài Viết</a></button>
+              </div>
+            </div>
+            <!-- blog item 2 -->
+            <div
+              style="background-image: url(./image/tours/phuquoc.jpg)"
+              class="section__blog__list__items"
+            >
+              <div class="section__blog__list__item">
+                <a href="./bai-viet/gioi-thieu-phu-quoc.html">Phú Quốc bãi biển thơ mộng</a>
+                <div class="blog__list__item__author">
+                  <span>10 / 11 / 2024</span>
+                  <ul>
+                    <li>Đặng Thế Việt</li>
+                  </ul>
+                </div>
+                <button><a href="./bai-viet/gioi-thieu-phu-quoc.html">Xem Bài Viết</a></button>
+
+              </div>
+            </div>
+            <!-- blog item 3 -->
+            <div
+              style="background-image: url(./image/tours/hagiang.jpg)"
+              class="section__blog__list__items tablet__blog"
+            >
+              <div class="section__blog__list__item">
+                <a href="./bai-viet/gioi-thieu-ha-giang.html">Hà Giang núi non hùng vĩ</a>
+                <div class="blog__list__item__author">
+                  <span>10 / 11 / 2024</span>
+                  <ul>
+                    <li>Đặng Thế Việt</li>
+                  </ul>
+                </div>
+               <button><a href="./bai-viet/gioi-thieu-ha-giang.html">Xem Bài Viết</a></button>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Member -->
+        <section class="section__member">
+          <!-- section__title -->
+          <div class="section__title sections__member">
+            <h2>Thành Viên</h2>
+
+            <a class="section__title--link" href=""
+              >xem chi tiết thành viên <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="section__member__lists">
+            <!-- member 2 -->
+
+            <div class="section__member__lists__item">
+              <div
+                class="section__member__lists__item__img section__member__lists__item__img--2"
+              ></div>
+              <div class="section__member__lits__item__author">
+                <a href="">GIẢN HOÀNG PHÚ</a>
+                <p>CNTT 18 - 07</p>
+              </div>
+            </div>
+
+            <!-- member 1 -->
+            <div class="section__member__lists__item">
+              <div
+                class="section__member__lists__item__img section__member__lists__item__img--1"
+              ></div>
+              <div class="section__member__lits__item__author">
+                <a href="">ĐẶNG THẾ VIỆT</a>
+                <p>CNTT 18 - 07</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Brand -->
+        <section class="section__brand">
+          <!-- section__title -->
+          <div class="section__title sections__brand">
+            <h2>Công Cụ Tạo Trang</h2>
+
+            <!-- <a class="section__title--link" href=""
+              >xem tất cả tour yêu thích <i class="fa-solid fa-arrow-right"></i
+            ></a> -->
+          </div>
+          <!-- brand list -->
+          <div class="section__brand__list">
+            <ul>
+              <!-- html -->
+              <li>
+                <img style="transform: scale(1.3);" src="./image/brand/ht.png" alt=""></img>
+                <span>HTML</span>
+              </li>
+               <!-- CSS -->
+               <li>
+                <img style="transform: scale(1.3);" src="./image/brand/cs.png" alt=""></img>
+                <span>CSS</span>
+              </li>
+               <!-- JAVASCRIPT -->
+               <li>
+                <img src="./image/brand/js.png" alt=""></img>
+                <span>JAVASCRIPT</span>
+              </li>
+               <!-- CANVA -->
+               <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" alt=""></img>
+                <span>CANVA</span>
+              </li>
+              <!-- html -->
+              <li>
+                <img style="transform: scale(1.3);" src="./image/brand/ht.png" alt=""></img>
+                <span>HTML</span>
+              </li>
+               <!-- CSS -->
+               <li>
+                <img style="transform: scale(1.3);" src="./image/brand/cs.png" alt=""></img>
+                <span>CSS</span>
+              </li>
+               <!-- JAVASCRIPT -->
+               <li>
+                <img src="./image/brand/js.png" alt=""></img>
+                <span>JAVASCRIPT</span>
+              </li>
+               <!-- CANVA -->
+               <li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg" alt=""></img>
+                <span>CANVA</span>
+              </li>
+               <!-- html -->
+               <li>
+                <img style="transform: scale(1.3);" src="./image/brand/ht.png" alt=""></img>
+                <span>HTML</span>
+              </li>
+               <!-- CSS -->
+               <li>
+                <img style="transform: scale(1.3);" src="./image/brand/cs.png" alt=""></img>
+                <span>CSS</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer id="footer">
+     <div class="footers__items">
+       <!-- item 1 -->
+       <div class="footer__items footer__item--linksocial">
+        <div class="footer__items__phoneemail">
+          <h2>Liên hệ</h2>
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>081.976.188</span>
+          </div>
+        </div>
+        <div class="footer__items__phoneemail">
+          <h2>Email</h2>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>dangvietdz123az@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="footer__items footer__items--page">
+        <h2>Trang Liên Kết</h2>
+        <div class="footer__items__link">
+          <a href="./index.html">Trang chủ</a>
+          <a href="./gioi-thieu.html">Về chúng tôi</a>
+          <a href="./dat-tour.html">Đặt Tour</a>
+          <a href="./tat-ca-tour.html">Tất cả tour</a>
+
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="footer__items footer__items--support">
+        <h2>Hỗ Trợ</h2>
+        <div class="footer__items__link">
+          <a href="#">Hỗ trợ khách hàng</a>
+          <a href="#">Quyền riêng tư & Chính sách</a>
+          <a href="#">Kênh liên hệ</a>
+        </div>
+      </div>
+      <!-- item 4 -->
+      <div class="footer__items footer__items--pay">
+        <h2>Thanh Toán An Toàn</h2>
+        <div class="footer__items__text">
+          <span>Khoản thanh toán được mã hóa và truyền an toàn bằng giao thức SSL.</span>
+        </div>
+        <div class="footer__items__paylist">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhnRciZzD02EF5x4GVzbpWqy4QHRkSApH_w&s" alt="">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1200px-PayPal_logo.svg.png" alt="">
+        </div>
+      </div>
+     </div>
+     <div class="footers__items__mobile">
+      <div class="footer__mobile--logo">
+        <img src="./image/logo.png" alt="">
+      </div>
+      <div class="footer__mobile--content">
+        <div class="footer__items footer__item--linksocial">
+          <div class="footer__items__phoneemail">
+            <h2>Liên hệ</h2>
+            <div>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>081.976.188</span>
+            </div>
+          </div>
+          <div class="footer__items__phoneemail">
+            <h2>Email</h2>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>dangvietdz123az@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </div>
+    </footer>
+    <div class="copyright">
+      <span>© 2024 Việt Phú Travel. Tất Cả Các Quyền.</span>
+      <div class="copyright__flow">
+        <span>Theo Dõi Mình Qua</span>
+        <div class="copyright__flow__social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-discord"></i>
+        </div>
+      </div>
+    </div>
+
+    <a href="#header" class="scroll__top">
+      <i class="fa-solid fa-jet-fighter-up"></i>
+    </a>
+
+    <!-- javascript -->
+    <script src="./script.js"></script>
+   
+  </body>
+</html>

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Đà Nẵng</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- css responsive -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <!-- main css -->
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon" />
+    <!-- about css -->
+    <link rel="stylesheet" href="./css/about.css" />
+    <!-- all-tour css -->
+     <link rel="stylesheet" href="../css/all-tour.css">
+    <!-- icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!-- header top bar -->
+      <div id="header" class="header__top">
+        <div class="top__left">
+          <div class="top__left--items">
+            <i class="fa-solid fa-phone"></i>
+            <span>0123456789</span>
+          </div>
+          <div class="top__left--items">
+            <i class="fa-regular fa-envelope"></i>
+            <span>test123@gmail.com</span>
+          </div>
+        </div>
+        <div class="top__right">
+          <div class="right__item right__item--social">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-discord"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <div class="right__item">
+            <div class="right__item--form right__item--login">
+              <a href="../dang-nhap.html">
+                <i class="fa-solid fa-key"></i>
+                <span>Đăng Nhập</span>
+              </a>
+            </div>
+            <div class="right__item--form right__item--sign">
+              <a href="../dang-ky.html">
+                <i class="fa-solid fa-user"></i>
+                <span>Đăng Ký</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header nav bar -->
+      <div class="header__navs">
+        <a href="../index.html" class="navs__logo">
+          <img src="../image/logo.png" alt="" />
+        </a>
+        <ul class="navs__menus">
+          <li>
+            <a class="" href="../index.html">Trang chủ</a>
+          </li>
+          <li>
+            <a href="../gioi-thieu.html">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="../dat-tour.html">Đặt Tour</a>
+          </li>
+          <li>
+            <a class="active" href="../tat-ca-tour.html">Tất cả tour</a>
+          </li>
+          <li>
+            <a href="../bai-viet.html">Bài viết</a>
+          </li>
+          <li>
+            <a href="../lien-he.html">Liên Hệ</a>
+          </li>
+          <div class="navs__menu--search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </ul>
+      </div>
+      <!-- header nav bar mobile -->
+      <div class="header__navs__mobile">
+        <a href="../index.html" class="navs__logo">
+          <img src="../image/logo.png" alt="" />
+        </a>
+        <div class="navs__mobile__bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navs__mobile__menus">
+          <div class="navs__mobile__menus__close">
+            <a href="../index.html" class="navs__logo">
+              <img src="../image/logo.png" alt="" />
+            </a>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="mobile__menus__items">
+            <a href="../index.html">Trang chủ</a>
+            <a href="../gioi-thieu.html">Giới thiệu</a>
+            <a href="../dat-tour.html">Đặt tour</a>
+            <a class="active__menus--mobile" href="../tat-ca-tour.html"
+              >Tất cả tour</a
+            >
+            <a href="../bai-viet.html">Bài viết</a>
+            <a href="../lien-he.html">Liên hệ</a>
+          </div>
+        </div>
+      </div>
+       
+      </div> 
+    </header>
+
+    <section class="tour__details">
+     <div class="details__img__sliders">
+        <div class="details__img__sliders__lists">
+            <div class="details__img__sliders__list__item">
+                <img src="../image/tours/danang.jpg" alt="">
+            </div>
+            <div class="details__img__sliders__list__item">
+                <img src="../image/tours/dn1.webp" alt="">
+            </div>
+           
+           
+           
+        </div>
+        <!-- <div class="details__img__sliders__btn">
+            <div class="sliders__btn__prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="sliders__btn__next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div> -->
+   
+     </div>
+     <div class="tour__detail">
+        <!-- left sidebar -->
+        <div class="tour__details__left">
+            <div class="details__left__title">
+                <h2>Tour Đà Nẵng</h2>
+                <div class="details__left__title__rating">
+                    <div class="ratting__star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <span>(1 Đánh giá)</span>
+                </div>
+                <div class="details__left__title__info">
+                    <!-- time -->
+                    <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Thời gian</span>
+                    </div>
+                    <!-- people -->
+                    <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-users"></i>
+                        <span>Số người tối đa: 22</span>
+                    </div>
+                    <!-- wifi -->
+                    <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-wifi"></i>
+                        <span>Có sẵn Wifi</span>
+                    </div>
+                    <!-- date -->
+                    <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>Ngay bây giờ</span>
+                    </div>
+                     <!-- min age -->
+                     <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Tuổi tối thiểu: 1+</span>
+                    </div>
+                     <!-- location -->
+                     <div class="details__left__title__info__item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Đà Nẵng</span>
+                    </div>
+                </div>
+            </div>
+            <div class="details__left__des">
+                <h2>Mô Tả</h2>
+                <div class="details__left__des__content">
+                    <p>Thành phố Đà Nẵng nằm ở miền Trung, chia đều khoảng cách giữa thủ đô Hà Nội và TP HCM. Đà Nẵng còn là trung tâm của 3 di sản văn hóa thế giới là Cố đô Huế, phố cổ Hội An và thánh địa Mỹ Sơn. Phía bắc Đà Nẵng giáp tỉnh Thừa Thiên - Huế, phía tây và nam giáp tỉnh Quảng Nam, phía đông giáp biển Đông.</p>
+                    <span >Đà Nẵng mùa nào đẹp</span>
+                    <p>Đà Nẵng là nơi chuyển tiếp đan xen giữa khí hậu miền Bắc và miền Nam, với tính trội là khí hậu nhiệt đới ở phía Nam. Mỗi năm có hai mùa rõ rệt: mùa khô từ tháng 1 đến tháng 7 và mùa mưa từ tháng 8 đến tháng 12, đôi khi có những đợt rét mùa đông nhưng không kéo dài và trời không rét đậm.</p>
+                   <p>Cuối tháng 12 đến cuối tháng 3: Tiết trời mát mẻ và dễ chịu, lý tưởng nhất cho các chuyến du xuân. Giá cả dịch vụ khách sạn, ăn uống vào thời gian này được cho là bình ổn nhất trong năm. Lưu ý, du khách nên mang thêm áo khoác mỏng vì trời có thể se lạnh vào buổi tối, thi thoảng có mưa xuân.</p>
+                    <p>Đầu tháng 4 đến giữa tháng 9: Đây là thời gian đẹp nhất để du lịch Đà Nẵng, song cũng là mùa cao điểm du lịch hè, khá đông đúc và đắt đỏ. Tháng 4 là mùa cây rừng thay lá vàng, lá đỏ trên bán đảo Sơn Trà.</p>
+                </div>
+                <div class="details__left__des__img">
+                    <h2>Hình Ảnh</h2>
+                    <img src="../image/tours/dn1.webp" alt="">
+                    <img src="../image/tours/danang.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="details__left__map">
+                <h2>Bản Đồ</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245374.3273748048!2d107.76679584887547!3d16.066845936629488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2zxJDDoCBO4bq1bmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1732463833730!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- rating -->
+             <div class="details__left__comments">
+              <h2>Bình Luận </h2>
+             <div class="details__left__comment">
+              <div class="comment__info">
+                <img src="../image/member/2.jpg" alt="">
+                <div class="comment__info__name">
+                  <h3>Đặng Thế Việt</h3>
+                  <div class="ratting__star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Tour rất chu đáo. Tôi rất hài lòng về chuyến đi cùng Việt Phú Travel
+              </p>
+             </div>
+             <div class="details__left__comment">
+              <div class="comment__info">
+                <img src="../image/member/1.jpg" alt="">
+                <div class="comment__info__name">
+                  <h3>Giản Hoàng Phú</h3>
+                  <div class="ratting__star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Tour rất chu đáo. Tôi rất hài lòng về chuyến đi cùng Việt Phú Travel
+              </p>
+             </div>
+
+             </div>
+            
+         </div>
+         <!-- right sidebar -->
+          <div class="tour__details__right">
+            <div class="details__right__booking">
+              <div class="right__booking__prices">
+                <h2>Giá</h2>
+                <div class="right__booking__price">
+                  <i class="fa-solid fa-tag"></i>
+                  <h2>3,000,000 VND</h2>
+                </div>
+              </div>
+              <div class="right__bookings">
+                <h2>Đặt Tour</h2>
+                <form action="" class="booking__forms">
+                   <!-- time -->
+                   <div class="booking__form__item">
+                    <label for="time">Thời gian bắt đầu</label>
+                   <input type="datetime-local">
+                  </div>
+                   <!-- time -->
+                                  <div class="booking__form__item">
+                                    <label for="time">Thời gian kết thúc</label>
+                                   <input required type="datetime-local">
+                                  </div>
+                  <!-- time -->
+                  <div class="booking__form__item">
+                    <label for="time">Combo tour</label>
+                    <select name="" id="time">
+                      <option>Chọn combo</option>
+                      <option value="">2 Ngày 1 Đêm</option>
+                      <option value="">3 Ngày 2 Đêm</option>
+                      <option value="">4 Ngày 3 Đêm</option>
+                      <option value="">5 Ngày 4 Đêm</option>
+                      <option value="">6 Ngày 7 Đêm</option>
+                      <option value="">7 Ngày Trở Lên</option>
+                    </select>
+                  </div>
+                  <!-- person -->
+                  <div class="booking__form__item">
+                    <label for="">Số người</label>
+                    <select name="" id="">
+                      <option>Chọn</option>
+                      <option value="">1 Người</option>
+                      <option value="">2 Người</option>
+                      <option value="">3 Người</option>
+                      <option value="">4 Người</option>
+                      <option value="">5 Người</option>
+                    </select>
+                  </div>
+                  <!-- location -->
+                  <div class="booking__form__item">
+                    <label for="">Vị  trí</label>
+                    <select name="" id="">
+                      <option>Đà Nẵng</option>
+                      
+                    </select>
+                  </div>
+                  <!-- name -->
+                  <div class="booking__form__item">
+                    <label for="name">Họ và tên</label>
+                   <input id="name" type="text" placeholder="Nhập họ và tên...">
+                  </div>
+                  <!-- email -->
+                  <div class="booking__form__item">
+                    <label for="email">Email</label>
+                   <input id="email" type="email" placeholder="Nhập email của bạn...">
+                  </div>
+                  <!-- name -->
+                  <div class="booking__form__item">
+                    <label for="phone">Số điện thoại</label>
+                   <input id="phone" type="number" placeholder="Số điện thoại...">
+                  </div>
+                  <!-- name -->
+                  <div class="booking__form__item">
+                    <label for="mes">Ghi chú</label>
+                   <textarea name="" id="mes" rows="3" placeholder="Ghi chú..."></textarea>
+                  </div>
+                 <button style="width: 100%;"><a href="../thanh-toan.html">Đặt Tour Ngay</a></button>
+                  
+                  
+                </form>
+              </div>
+            </div>
+            <!-- booking why -->
+            <div class="booking__why">
+              <h3>Vì sao bạn nên chọn chúng tôi</h3>
+              <div class="booking__why__items">
+                <!-- item 1 -->
+                <div class="booking__why__item">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                  <span>Đảm bảo giá tốt nhất không thay đổi</span>
+                </div>
+                <!-- item 1 -->
+                <div class="booking__why__item">
+                  <i class="fa-solid fa-headphones"></i>
+                  <span>Dịch vụ chăm sóc khách hàng luôn sẵn sàng 24/7</span>
+                </div>
+                 <!-- item 1 -->
+                 <div class="booking__why__item">
+                  <i class="fa-solid fa-star"></i>
+                  <span>Chuyến tham quan & hoạt động được chọn lọc kỹ lưỡng</span>
+                </div>
+                 <!-- item 1 -->
+                 <div class="booking__why__item">
+                  <i class="fa-solid fa-house-crack"></i>
+                  <span>Bảo hiểm du lịch miễn phí</span>
+                </div>
+              </div>
+            </div>
+            <!-- question -->
+            <div class="booking__question">
+              <h2>Gửi Câu Hỏi</h2>
+              <p>Đừng ngần ngại gọi cho chúng tôi. Chúng tôi là một nhóm chuyên gia và chúng tôi rất vui được nói chuyện với bạn.</p>
+              <div class="question__contact">
+                <div class="question__contact__item">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>0812.976.188</span>
+                </div>
+                <div class="question__contact__item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>dangvietdz123az@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+     </div>
+
+
+
+    
+    </section>
+
+    <footer id="footer">
+      <div class="footers__items">
+        <!-- item 1 -->
+        <div class="footer__items footer__item--linksocial">
+          <div class="footer__items__phoneemail">
+            <h2>Liên hệ</h2>
+            <div>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>081.976.188</span>
+            </div>
+          </div>
+          <div class="footer__items__phoneemail">
+            <h2>Email</h2>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <span>dangvietdz123az@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="footer__items footer__items--page">
+          <h2>Trang Liên Kết</h2>
+          <div class="footer__items__link">
+            <a href="#">Trang chủ</a>
+            <a href="#">Về chúng tôi</a>
+            <a href="#">Đặt tour</a>
+            <a href="#">Tour list</a>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="footer__items footer__items--support">
+          <h2>Hỗ Trợ</h2>
+          <div class="footer__items__link">
+            <a href="#">Hỗ trợ khách hàng</a>
+            <a href="#">Quyền riêng tư & Chính sách</a>
+            <a href="#">Kênh liên hệ</a>
+          </div>
+        </div>
+        <!-- item 4 -->
+        <div class="footer__items footer__items--pay">
+          <h2>Thanh Toán An Toàn</h2>
+          <div class="footer__items__text">
+            <span
+              >Khoản thanh toán được mã hóa và truyền an toàn bằng giao thức
+              SSL.</span
+            >
+          </div>
+          <div class="footer__items__paylist">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+              alt=""
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png"
+              alt=""
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhnRciZzD02EF5x4GVzbpWqy4QHRkSApH_w&s"
+              alt=""
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/1200px-PayPal_logo.svg.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footers__items__mobile">
+        <div class="footer__mobile--logo">
+          <img src="../image/logo.png" alt="" />
+        </div>
+        <div class="footer__mobile--content">
+          <div class="footer__items footer__item--linksocial">
+            <div class="footer__items__phoneemail">
+              <h2>Liên hệ</h2>
+              <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>081.976.188</span>
+              </div>
+            </div>
+            <div class="footer__items__phoneemail">
+              <h2>Email</h2>
+              <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>dangvietdz123az@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <span>© 2024 Việt Phú Travel. Tất Cả Các Quyền.</span>
+      <div class="copyright__flow">
+        <span>Theo Dõi Mình Qua</span>
+        <div class="copyright__flow__social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-discord"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="../script.js"></script>
+  </body>
+</html>
