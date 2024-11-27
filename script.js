@@ -1,4 +1,4 @@
-// fix menu toop
+// fix menu top
 window.addEventListener("scroll", function () {
   var header = document.querySelector(".header__navs");
   var mobilemenu = this.document.querySelector(".header__navs__mobile");

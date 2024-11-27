@@ -1086,17 +1086,20 @@ button a {
 .section__brand {
   width: 100%;
   /* background-color: var(--text-color); */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .section__brand__list {
-  width: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section__brand__list ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 5px 0;
-  animation: animationTab 15s linear infinite;
+  /* animation: animationTab 15s linear infinite; */
 }
 .section__brand__list li {
   display: flex;
