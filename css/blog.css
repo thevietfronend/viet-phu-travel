@@ -199,3 +199,9 @@
   background-color: var(--primary-color);
   color: var(--text-color);
 }
+
+@media (max-width: 740px) {
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+}

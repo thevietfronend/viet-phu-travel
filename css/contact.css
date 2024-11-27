@@ -11,3 +11,20 @@
   color: var(--title-color);
   letter-spacing: 1.2px;
 }
+
+@media (max-width: 740px) {
+  .booking__forms {
+    max-width: 90vw;
+  }
+  .booking__form__title h2 {
+    font-size: 20px;
+  }
+  .booking__form__item h2 {
+    font-size: 13px;
+    line-height: 2.1;
+  }
+  .booking__recommended {
+    display: flex;
+    height: 500px;
+  }
+}
