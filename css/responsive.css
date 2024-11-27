@@ -458,6 +458,9 @@
     width: 80%;
     background-color: #ffffffd0;
   }
+  .content__forms select {
+    padding: 20px 40px;
+  }
   .content__forms .content__form--btn {
     background-color: var(--primary-color);
   }

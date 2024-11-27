@@ -30,3 +30,12 @@
   object-fit: cover;
   mix-blend-mode: color-burn;
 }
+
+@media (max-width: 740px) {
+  .succsess h2 {
+    font-size: 20px;
+  }
+  .succsess p {
+    font-size: 12px;
+  }
+}

@@ -157,6 +157,10 @@
     height: 100%;
     display: block;
   }
+  .about__member__item__content {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {

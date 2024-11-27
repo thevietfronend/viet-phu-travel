@@ -389,6 +389,9 @@
 }
 
 @media (max-width: 740px) {
+  body {
+    overflow-x: hidden;
+  }
   .details__img__sliders {
     height: 300px;
   }

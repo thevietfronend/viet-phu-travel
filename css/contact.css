@@ -1,0 +1,13 @@
+.booking__form__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  cursor: default;
+}
+.booking__form__item h2 {
+  padding: 0 20px;
+  font-weight: bold;
+  color: var(--title-color);
+  letter-spacing: 1.2px;
+}
